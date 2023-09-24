@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Data_Base__kurs_.Forms
 {
-    public partial class IntrastingArticle : Form
+    public partial class Edit : Form
     {
-        public IntrastingArticle()
+        public Edit()
         {
             InitializeComponent();
         }

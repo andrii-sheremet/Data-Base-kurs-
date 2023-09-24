@@ -16,5 +16,10 @@ namespace Data_Base__kurs_.Forms
         {
             InitializeComponent();
         }
+
+        private void CatsPage_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

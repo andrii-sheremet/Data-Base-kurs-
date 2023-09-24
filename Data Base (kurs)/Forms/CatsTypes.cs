@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Data_Base__kurs_.Forms
 {
-    public partial class ExhibitionsPage : Form
+    public partial class CatsTypes : Form
     {
-        public ExhibitionsPage()
+        public CatsTypes()
         {
             InitializeComponent();
         }

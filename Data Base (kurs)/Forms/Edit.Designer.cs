@@ -1,6 +1,6 @@
 ﻿namespace Data_Base__kurs_.Forms
 {
-    partial class EditPage
+    partial class Edit
     {
         /// <summary>
         /// Required designer variable.
@@ -28,10 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "EditPage";
+            SuspendLayout();
+            // 
+            // Edit
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.LightSteelBlue;
+            ClientSize = new Size(427, 368);
+            MaximizeBox = false;
+            MinimizeBox = false;
+            Name = "Edit";
+            Text = "Змінити інформацію про виставку";
+            ResumeLayout(false);
         }
 
         #endregion

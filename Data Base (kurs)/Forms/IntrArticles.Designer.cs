@@ -1,6 +1,6 @@
 ﻿namespace Data_Base__kurs_.Forms
 {
-    partial class CatsPage
+    partial class IntrArticles
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CatsPage));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(IntrArticles));
             panel1 = new Panel();
             Back = new PictureBox();
             panel1.SuspendLayout();
@@ -56,17 +56,20 @@
             Back.TabIndex = 0;
             Back.TabStop = false;
             // 
-            // CatsPage
+            // IntrArticles
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.LightSteelBlue;
             ClientSize = new Size(773, 494);
             Controls.Add(panel1);
+            DoubleBuffered = true;
             FormBorderStyle = FormBorderStyle.FixedDialog;
             MaximizeBox = false;
-            Name = "CatsPage";
-            Load += CatsPage_Load;
+            Name = "IntrArticles";
+            StartPosition = FormStartPosition.CenterParent;
+            Text = "Цікаві світлини";
+            Load += IntrArticles_Load;
             panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)Back).EndInit();
             ResumeLayout(false);

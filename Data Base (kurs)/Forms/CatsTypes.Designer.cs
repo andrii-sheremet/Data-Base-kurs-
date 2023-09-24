@@ -1,6 +1,6 @@
 ﻿namespace Data_Base__kurs_.Forms
 {
-    partial class CatsPage
+    partial class CatsTypes
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CatsPage));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CatsTypes));
             panel1 = new Panel();
             Back = new PictureBox();
             panel1.SuspendLayout();
@@ -43,7 +43,7 @@
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
             panel1.Size = new Size(773, 62);
-            panel1.TabIndex = 2;
+            panel1.TabIndex = 1;
             // 
             // Back
             // 
@@ -56,17 +56,19 @@
             Back.TabIndex = 0;
             Back.TabStop = false;
             // 
-            // CatsPage
+            // CatsTypes
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.LightSteelBlue;
             ClientSize = new Size(773, 494);
             Controls.Add(panel1);
+            DoubleBuffered = true;
             FormBorderStyle = FormBorderStyle.FixedDialog;
             MaximizeBox = false;
-            Name = "CatsPage";
-            Load += CatsPage_Load;
+            Name = "CatsTypes";
+            StartPosition = FormStartPosition.CenterParent;
+            Text = "Види котів";
             panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)Back).EndInit();
             ResumeLayout(false);

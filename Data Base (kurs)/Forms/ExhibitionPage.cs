@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace Data_Base__kurs_.Forms
 {
-    public partial class CatsType : Form
+    public partial class ExhibitionPage : Form
     {
-        public CatsType()
+        public ExhibitionPage()
         {
             InitializeComponent();
+        }
+
+        private void ExhibitionPage_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

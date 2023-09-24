@@ -28,12 +28,55 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Care";
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Care));
+            panel1 = new Panel();
+            Back = new PictureBox();
+            panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)Back).BeginInit();
+            SuspendLayout();
+            // 
+            // panel1
+            // 
+            panel1.BackColor = Color.LightSteelBlue;
+            panel1.Controls.Add(Back);
+            panel1.Dock = DockStyle.Top;
+            panel1.Location = new Point(0, 0);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(773, 62);
+            panel1.TabIndex = 2;
+            // 
+            // Back
+            // 
+            Back.Dock = DockStyle.Left;
+            Back.Image = (Image)resources.GetObject("Back.Image");
+            Back.Location = new Point(0, 0);
+            Back.Name = "Back";
+            Back.Size = new Size(80, 62);
+            Back.SizeMode = PictureBoxSizeMode.Zoom;
+            Back.TabIndex = 0;
+            Back.TabStop = false;
+            // 
+            // Care
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.LightSteelBlue;
+            ClientSize = new Size(773, 494);
+            Controls.Add(panel1);
+            DoubleBuffered = true;
+            FormBorderStyle = FormBorderStyle.FixedDialog;
+            MaximizeBox = false;
+            Name = "Care";
+            StartPosition = FormStartPosition.CenterParent;
+            Text = "Догляд";
+            panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)Back).EndInit();
+            ResumeLayout(false);
         }
 
         #endregion
+
+        private Panel panel1;
+        private PictureBox Back;
     }
 }

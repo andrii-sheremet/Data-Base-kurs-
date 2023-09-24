@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Data_Base__kurs_.Forms
 {
-    public partial class EditPage : Form
+    public partial class Login : Form
     {
-        public EditPage()
+        public Login()
         {
             InitializeComponent();
         }

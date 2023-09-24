@@ -1,6 +1,6 @@
 ﻿namespace Data_Base__kurs_.Forms
 {
-    partial class CatsPage
+    partial class ExhibitionPage
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CatsPage));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ExhibitionPage));
             panel1 = new Panel();
             Back = new PictureBox();
             panel1.SuspendLayout();
@@ -56,7 +56,7 @@
             Back.TabIndex = 0;
             Back.TabStop = false;
             // 
-            // CatsPage
+            // ExhibitionPage
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -65,8 +65,9 @@
             Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.FixedDialog;
             MaximizeBox = false;
-            Name = "CatsPage";
-            Load += CatsPage_Load;
+            Name = "ExhibitionPage";
+            StartPosition = FormStartPosition.CenterParent;
+            Load += ExhibitionPage_Load;
             panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)Back).EndInit();
             ResumeLayout(false);

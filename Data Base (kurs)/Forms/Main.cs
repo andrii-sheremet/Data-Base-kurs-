@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Data_Base__kurs_.Class;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,17 @@ namespace Data_Base__kurs_.Forms
         public Main()
         {
             InitializeComponent();
+        }
+
+        private void Main_Load(object sender, EventArgs e)
+        {
+
+        }
+        /*Pages.forms.Push(this);*/
+        private void LoginButton_Click(object sender, EventArgs e)
+        {
+            Login f = new();
+            f.Show();
         }
     }
 }
