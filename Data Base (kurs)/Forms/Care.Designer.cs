@@ -94,7 +94,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            label1.Location = new Point(79, 435);
+            label1.Location = new Point(83, 435);
             label1.Name = "label1";
             label1.Size = new Size(601, 50);
             label1.TabIndex = 3;
@@ -109,16 +109,22 @@
             panel2.Name = "panel2";
             panel2.Size = new Size(141, 158);
             panel2.TabIndex = 4;
-            panel2.MouseEnter += panel2_MouseEnter;
-            panel2.MouseLeave += panel2_MouseLeave;
+            panel2.Click += panel2_Click;
+            panel2.MouseEnter += panel2_MouseEnter_1;
+            panel2.MouseLeave += panel2_MouseLeave_1;
             // 
             // panel3
             // 
-            panel3.BackColor = Color.LightSteelBlue;
+            panel3.BackColor = Color.AliceBlue;
+            panel3.BackgroundImage = (Image)resources.GetObject("panel3.BackgroundImage");
+            panel3.BackgroundImageLayout = ImageLayout.Zoom;
             panel3.Location = new Point(3, 4);
             panel3.Name = "panel3";
             panel3.Size = new Size(135, 109);
             panel3.TabIndex = 1;
+            panel3.Click += panel2_Click;
+            panel3.MouseEnter += panel2_MouseEnter_1;
+            panel3.MouseLeave += panel2_MouseLeave_1;
             // 
             // label2
             // 
@@ -129,6 +135,9 @@
             label2.Size = new Size(75, 17);
             label2.TabIndex = 0;
             label2.Text = "Годування";
+            label2.Click += panel2_Click;
+            label2.MouseEnter += panel2_MouseEnter_1;
+            label2.MouseLeave += panel2_MouseLeave_1;
             // 
             // panel4
             // 
@@ -139,14 +148,22 @@
             panel4.Name = "panel4";
             panel4.Size = new Size(141, 158);
             panel4.TabIndex = 5;
+            panel4.Click += panel4_Click;
+            panel4.MouseEnter += panel4_MouseEnter;
+            panel4.MouseLeave += panel4_MouseLeave;
             // 
             // panel5
             // 
-            panel5.BackColor = Color.LightSteelBlue;
+            panel5.BackColor = Color.AliceBlue;
+            panel5.BackgroundImage = (Image)resources.GetObject("panel5.BackgroundImage");
+            panel5.BackgroundImageLayout = ImageLayout.Zoom;
             panel5.Location = new Point(3, 4);
             panel5.Name = "panel5";
             panel5.Size = new Size(135, 109);
             panel5.TabIndex = 1;
+            panel5.Click += panel4_Click;
+            panel5.MouseEnter += panel4_MouseEnter;
+            panel5.MouseLeave += panel4_MouseLeave;
             // 
             // label3
             // 
@@ -157,6 +174,9 @@
             label3.Size = new Size(82, 17);
             label3.TabIndex = 0;
             label3.Text = "Питна вода";
+            label3.Click += panel4_Click;
+            label3.MouseEnter += panel4_MouseEnter;
+            label3.MouseLeave += panel4_MouseLeave;
             // 
             // panel6
             // 
@@ -167,14 +187,22 @@
             panel6.Name = "panel6";
             panel6.Size = new Size(141, 158);
             panel6.TabIndex = 5;
+            panel6.Click += panel7_Click;
+            panel6.MouseEnter += panel7_MouseEnter;
+            panel6.MouseLeave += panel7_MouseLeave;
             // 
             // panel7
             // 
-            panel7.BackColor = Color.LightSteelBlue;
+            panel7.BackColor = Color.AliceBlue;
+            panel7.BackgroundImage = (Image)resources.GetObject("panel7.BackgroundImage");
+            panel7.BackgroundImageLayout = ImageLayout.Zoom;
             panel7.Location = new Point(3, 4);
             panel7.Name = "panel7";
             panel7.Size = new Size(135, 109);
             panel7.TabIndex = 1;
+            panel7.Click += panel7_Click;
+            panel7.MouseEnter += panel7_MouseEnter;
+            panel7.MouseLeave += panel7_MouseLeave;
             // 
             // label4
             // 
@@ -185,6 +213,9 @@
             label4.Size = new Size(49, 17);
             label4.TabIndex = 0;
             label4.Text = "Гігієна";
+            label4.Click += panel7_Click;
+            label4.MouseEnter += panel7_MouseEnter;
+            label4.MouseLeave += panel7_MouseLeave;
             // 
             // panel8
             // 
@@ -195,14 +226,22 @@
             panel8.Name = "panel8";
             panel8.Size = new Size(141, 158);
             panel8.TabIndex = 5;
+            panel8.Click += label5_Click;
+            panel8.MouseEnter += label5_MouseEnter;
+            panel8.MouseLeave += label5_MouseLeave;
             // 
             // panel9
             // 
-            panel9.BackColor = Color.LightSteelBlue;
+            panel9.BackColor = Color.AliceBlue;
+            panel9.BackgroundImage = (Image)resources.GetObject("panel9.BackgroundImage");
+            panel9.BackgroundImageLayout = ImageLayout.Zoom;
             panel9.Location = new Point(3, 4);
             panel9.Name = "panel9";
             panel9.Size = new Size(135, 109);
             panel9.TabIndex = 1;
+            panel9.Click += label5_Click;
+            panel9.MouseEnter += label5_MouseEnter;
+            panel9.MouseLeave += label5_MouseLeave;
             // 
             // label5
             // 
@@ -213,6 +252,9 @@
             label5.Size = new Size(129, 17);
             label5.TabIndex = 0;
             label5.Text = "Забезпечення руху";
+            label5.Click += label5_Click;
+            label5.MouseEnter += label5_MouseEnter;
+            label5.MouseLeave += label5_MouseLeave;
             // 
             // panel10
             // 
@@ -223,14 +265,22 @@
             panel10.Name = "panel10";
             panel10.Size = new Size(141, 158);
             panel10.TabIndex = 5;
+            panel10.Click += panel10_Click;
+            panel10.MouseEnter += panel10_MouseEnter;
+            panel10.MouseLeave += panel10_MouseLeave;
             // 
             // panel11
             // 
-            panel11.BackColor = Color.LightSteelBlue;
+            panel11.BackColor = Color.AliceBlue;
+            panel11.BackgroundImage = (Image)resources.GetObject("panel11.BackgroundImage");
+            panel11.BackgroundImageLayout = ImageLayout.Zoom;
             panel11.Location = new Point(3, 4);
             panel11.Name = "panel11";
             panel11.Size = new Size(135, 109);
             panel11.TabIndex = 1;
+            panel11.Click += panel10_Click;
+            panel11.MouseEnter += panel10_MouseEnter;
+            panel11.MouseLeave += panel10_MouseLeave;
             // 
             // label6
             // 
@@ -241,6 +291,9 @@
             label6.Size = new Size(99, 17);
             label6.TabIndex = 0;
             label6.Text = "Увага та ласка";
+            label6.Click += panel10_Click;
+            label6.MouseEnter += panel10_MouseEnter;
+            label6.MouseLeave += panel10_MouseLeave;
             // 
             // panel12
             // 
@@ -251,14 +304,22 @@
             panel12.Name = "panel12";
             panel12.Size = new Size(141, 158);
             panel12.TabIndex = 5;
+            panel12.Click += panel12_Click;
+            panel12.MouseEnter += panel12_MouseEnter;
+            panel12.MouseLeave += panel12_MouseLeave;
             // 
             // panel13
             // 
-            panel13.BackColor = Color.LightSteelBlue;
+            panel13.BackColor = Color.AliceBlue;
+            panel13.BackgroundImage = (Image)resources.GetObject("panel13.BackgroundImage");
+            panel13.BackgroundImageLayout = ImageLayout.Zoom;
             panel13.Location = new Point(3, 4);
             panel13.Name = "panel13";
             panel13.Size = new Size(135, 109);
             panel13.TabIndex = 1;
+            panel13.Click += panel12_Click;
+            panel13.MouseEnter += panel12_MouseEnter;
+            panel13.MouseLeave += panel12_MouseLeave;
             // 
             // label7
             // 
@@ -269,6 +330,9 @@
             label7.Size = new Size(82, 34);
             label7.TabIndex = 0;
             label7.Text = "Візити до \r\nветеринара";
+            label7.Click += panel12_Click;
+            label7.MouseEnter += panel12_MouseEnter;
+            label7.MouseLeave += panel12_MouseLeave;
             // 
             // panel14
             // 
@@ -279,14 +343,22 @@
             panel14.Name = "panel14";
             panel14.Size = new Size(141, 158);
             panel14.TabIndex = 5;
+            panel14.MouseClick += panel14_MouseClick;
+            panel14.MouseEnter += panel14_MouseEnter;
+            panel14.MouseLeave += panel14_MouseLeave;
             // 
             // panel15
             // 
-            panel15.BackColor = Color.LightSteelBlue;
+            panel15.BackColor = Color.AliceBlue;
+            panel15.BackgroundImage = (Image)resources.GetObject("panel15.BackgroundImage");
+            panel15.BackgroundImageLayout = ImageLayout.Zoom;
             panel15.Location = new Point(3, 4);
             panel15.Name = "panel15";
             panel15.Size = new Size(135, 109);
             panel15.TabIndex = 1;
+            panel15.MouseClick += panel14_MouseClick;
+            panel15.MouseEnter += panel14_MouseEnter;
+            panel15.MouseLeave += panel14_MouseLeave;
             // 
             // label8
             // 
@@ -297,6 +369,9 @@
             label8.Size = new Size(58, 17);
             label8.TabIndex = 0;
             label8.Text = "Безпека";
+            label8.MouseClick += panel14_MouseClick;
+            label8.MouseEnter += panel14_MouseEnter;
+            label8.MouseLeave += panel14_MouseLeave;
             // 
             // panel16
             // 
@@ -307,14 +382,22 @@
             panel16.Name = "panel16";
             panel16.Size = new Size(141, 158);
             panel16.TabIndex = 5;
+            panel16.Click += panel16_Click;
+            panel16.MouseEnter += panel16_MouseEnter;
+            panel16.MouseLeave += panel16_MouseLeave;
             // 
             // panel17
             // 
-            panel17.BackColor = Color.LightSteelBlue;
+            panel17.BackColor = Color.AliceBlue;
+            panel17.BackgroundImage = (Image)resources.GetObject("panel17.BackgroundImage");
+            panel17.BackgroundImageLayout = ImageLayout.Zoom;
             panel17.Location = new Point(3, 4);
             panel17.Name = "panel17";
             panel17.Size = new Size(135, 109);
             panel17.TabIndex = 1;
+            panel17.Click += panel16_Click;
+            panel17.MouseEnter += panel16_MouseEnter;
+            panel17.MouseLeave += panel16_MouseLeave;
             // 
             // label9
             // 
@@ -325,6 +408,9 @@
             label9.Size = new Size(83, 34);
             label9.TabIndex = 0;
             label9.Text = "Помітки та \r\nвідпочинок";
+            label9.Click += panel16_Click;
+            label9.MouseEnter += panel16_MouseEnter;
+            label9.MouseLeave += panel16_MouseLeave;
             // 
             // Care
             // 
@@ -346,7 +432,7 @@
             FormBorderStyle = FormBorderStyle.FixedDialog;
             MaximizeBox = false;
             Name = "Care";
-            StartPosition = FormStartPosition.CenterParent;
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Догляд";
             panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)Back).EndInit();

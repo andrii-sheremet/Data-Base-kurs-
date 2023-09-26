@@ -20,7 +20,7 @@ namespace Data_Base__kurs_.Forms
 
         private void Main_Load(object sender, EventArgs e)
         {
-            
+
         }
 
         private void LoginButton_Click(object sender, EventArgs e)

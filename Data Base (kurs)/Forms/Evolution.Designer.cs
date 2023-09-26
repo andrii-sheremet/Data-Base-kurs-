@@ -51,6 +51,8 @@
             label10 = new Label();
             label11 = new Label();
             label12 = new Label();
+            label13 = new Label();
+            label14 = new Label();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)Back).BeginInit();
             panel2.SuspendLayout();
@@ -113,6 +115,7 @@
             // label3
             // 
             label3.AutoSize = true;
+            label3.ForeColor = SystemColors.Highlight;
             label3.Location = new Point(3, 114);
             label3.Name = "label3";
             label3.Size = new Size(64, 15);
@@ -123,7 +126,7 @@
             // panel2
             // 
             panel2.Controls.Add(splitContainer1);
-            panel2.Location = new Point(12, 105);
+            panel2.Location = new Point(12, 135);
             panel2.Name = "panel2";
             panel2.Size = new Size(749, 349);
             panel2.TabIndex = 6;
@@ -191,6 +194,7 @@
             // label4
             // 
             label4.AutoSize = true;
+            label4.ForeColor = SystemColors.Highlight;
             label4.Location = new Point(3, 114);
             label4.Name = "label4";
             label4.Size = new Size(65, 15);
@@ -255,6 +259,7 @@
             // label7
             // 
             label7.AutoSize = true;
+            label7.ForeColor = SystemColors.Highlight;
             label7.Location = new Point(3, 114);
             label7.Name = "label7";
             label7.Size = new Size(61, 15);
@@ -293,6 +298,7 @@
             // label10
             // 
             label10.AutoSize = true;
+            label10.ForeColor = SystemColors.Highlight;
             label10.Location = new Point(3, 114);
             label10.Name = "label10";
             label10.Size = new Size(102, 15);
@@ -319,19 +325,41 @@
             label12.TabIndex = 13;
             label12.Text = resources.GetString("label12.Text");
             // 
+            // label13
+            // 
+            label13.AutoSize = true;
+            label13.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label13.Location = new Point(214, 39);
+            label13.Name = "label13";
+            label13.Size = new Size(344, 37);
+            label13.TabIndex = 7;
+            label13.Text = "Етапи зростання кошеня";
+            // 
+            // label14
+            // 
+            label14.AutoSize = true;
+            label14.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label14.Location = new Point(8, 71);
+            label14.Name = "label14";
+            label14.Size = new Size(765, 60);
+            label14.TabIndex = 8;
+            label14.Text = resources.GetString("label14.Text");
+            // 
             // Evolution
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.LightSteelBlue;
             ClientSize = new Size(773, 494);
+            Controls.Add(label14);
+            Controls.Add(label13);
             Controls.Add(panel2);
             Controls.Add(panel1);
             DoubleBuffered = true;
             FormBorderStyle = FormBorderStyle.FixedDialog;
             MaximizeBox = false;
             Name = "Evolution";
-            StartPosition = FormStartPosition.CenterParent;
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Розвиток кота";
             panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)Back).EndInit();
@@ -353,6 +381,7 @@
             ((System.ComponentModel.ISupportInitialize)splitContainer3).EndInit();
             splitContainer3.ResumeLayout(false);
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -379,5 +408,7 @@
         private Panel panel4;
         private Panel panel5;
         private Panel panel6;
+        private Label label13;
+        private Label label14;
     }
 }

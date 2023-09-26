@@ -10,6 +10,7 @@ namespace Data_Base__kurs_.Class
     {
         // Основні властивості кота
         public int Id { get; set; }
+        public int FotoId { get; set; }
         public string Name { get; set; } // Ім'я кота
         public string Breed { get; set; } // Порода
         public int Age { get; set; } // Вік

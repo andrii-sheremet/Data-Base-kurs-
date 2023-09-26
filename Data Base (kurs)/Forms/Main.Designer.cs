@@ -92,35 +92,41 @@
             // 
             // button3
             // 
+            button3.BackColor = Color.AliceBlue;
+            button3.FlatStyle = FlatStyle.Flat;
             button3.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
             button3.Location = new Point(531, 257);
             button3.Name = "button3";
             button3.Size = new Size(230, 161);
             button3.TabIndex = 4;
             button3.Text = "Цікаві статті\r\nта інформація";
-            button3.UseVisualStyleBackColor = true;
+            button3.UseVisualStyleBackColor = false;
             button3.Click += button3_Click;
             // 
             // button2
             // 
+            button2.BackColor = Color.AliceBlue;
+            button2.FlatStyle = FlatStyle.Flat;
             button2.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
             button2.Location = new Point(274, 257);
             button2.Name = "button2";
             button2.Size = new Size(230, 161);
             button2.TabIndex = 3;
             button2.Text = "Виставки котів ";
-            button2.UseVisualStyleBackColor = true;
+            button2.UseVisualStyleBackColor = false;
             button2.Click += button2_Click;
             // 
             // button1
             // 
+            button1.BackColor = Color.AliceBlue;
+            button1.FlatStyle = FlatStyle.Flat;
             button1.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
             button1.Location = new Point(12, 257);
             button1.Name = "button1";
             button1.Size = new Size(230, 161);
             button1.TabIndex = 2;
             button1.Text = "Різновидності котів\r\nЇх породи та особливості\r\n";
-            button1.UseVisualStyleBackColor = true;
+            button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 
             // label2

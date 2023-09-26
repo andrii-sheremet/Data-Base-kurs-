@@ -121,7 +121,7 @@
   <data name="Back.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAN
-        0gAADdIBb5L+jgAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAEHjSURBVHhe7d13
+        0AAADdABEGw9BwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAEHjSURBVHhe7d13
         3CVFmfZxZgaYIUfBgQFJCoKSVhAMpBURRRAMsIgBXMS4ooJpRVTwVVbBgIK7iogYMaGYwYCigGJEQTCB
         rAFFRCSnfa977VmK5pqZ83Q43V39uz6f7x97r1T36dPnqZoOVUv9z//8DzBqyjw5SVZx/38AyJEtAmOh
         bC4/kfg/VnX/GwDIkS0CY6AcKjcVnT8DAACjYotAzpRV5Iyi008xAAAwGrYI5ErZQX5TdPhlDAAAjIYt
@@ -405,5 +405,10 @@
         D8qSBgAxIc5NEvfYr5arJB6ui5nxfigxWc43JZ6uP1PeJ2+WV8ph8iSJVfG2lvVkBbcfAPrmf5b6/0P4
         ajpVx7oRAAAAAElFTkSuQmCC
 </value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Дізнайтеся більше про захоплюючий світ котів та їх неймовірні особливості. 
+Розкривайте цікаві факти, які зроблять вас ще ближчими до вашого 
+пушистого друга і допоможуть краще зрозуміти цих загадкових тварин.</value>
   </data>
 </root>
