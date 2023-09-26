@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Data_Base__kurs_.Class;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,16 @@ namespace Data_Base__kurs_.Forms
         public Evolution()
         {
             InitializeComponent();
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void Back_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            (new IntrArticles()).Show();
         }
     }
 }

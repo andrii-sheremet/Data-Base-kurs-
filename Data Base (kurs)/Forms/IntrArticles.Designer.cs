@@ -37,12 +37,12 @@
             // 
             // panel1
             // 
-            panel1.BackColor = Color.LightSteelBlue;
+            panel1.BackColor = Color.LightSlateGray;
             panel1.Controls.Add(Back);
             panel1.Dock = DockStyle.Top;
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(773, 62);
+            panel1.Size = new Size(773, 36);
             panel1.TabIndex = 2;
             // 
             // Back
@@ -51,10 +51,11 @@
             Back.Image = (Image)resources.GetObject("Back.Image");
             Back.Location = new Point(0, 0);
             Back.Name = "Back";
-            Back.Size = new Size(80, 62);
+            Back.Size = new Size(53, 36);
             Back.SizeMode = PictureBoxSizeMode.Zoom;
             Back.TabIndex = 0;
             Back.TabStop = false;
+            Back.Click += Back_Click;
             // 
             // IntrArticles
             // 

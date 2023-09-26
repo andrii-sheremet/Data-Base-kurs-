@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Data_Base__kurs_.Class;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -21,5 +22,7 @@ namespace Data_Base__kurs_.Forms
         {
 
         }
+
+        private void Back_Click(object sender, EventArgs e) => this.Close();
     }
 }
